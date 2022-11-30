@@ -24,3 +24,23 @@ a {
     background: black;
   }
 }
+
+/* .movie:hover .overlay {
+  opacity: 1; */
+/* } */
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
